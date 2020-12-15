@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="raj()">print</button>
+
+    <script>
+            //find a (-2)value()
+        let value=[1,2,3,5,8,10,12,44,88,99,55,44];
+        let sum=value.sort(function(a,b){return a-b}) [value.length-2];
+        console.log(value);
+        console.log(sum);
+
+           //print of the current window()
+          let num="raj";
+           function raj(){
+              window.print();
+           }
+
+           //current date()
+           let d=new Date();
+           console.log(d);
+
+           //triangle where length()
+           let vem1 =5;
+           let vem2 =6;
+           let vem3 =7;
+           let a=(vem1+vem2+vem3)/2;
+           let dude = Math.sqrt(a*((a-vem1)*(a-vem2)*(a-vem3)));
+           console.log(dude);
+
+           //URL code()
+           console.log(document.URL);
+           
+           //with out useing string()
+           let e=["hellow","current","number","design"];
+           let reversed="";
+           let i;
+           function and(){ 
+            for( i=e.length-1; i >=0; i--){
+                 reversed+=e[i]+" ";
+            }
+            return reversed; 
+           }
+            console.log(and());
+
+           
+
+//adsf
+            let para="rajesh is very bad" ;
+let r;
+function clearing(){
+para=para.split(" ");
+for(r=0; para.length>r; r++){
+    para[r]=para[r][0].toUpperCase() + para[r].substr(1);
+}
+return para.join(" ");
+}
+console.log(para);
+console.log(clearing());
+
+ //capitalize first letter()
+ let maa="rajesh vemula pudhu ";
+           let re;
+           function raj(){
+               maa=maa.split(" ");
+               for(re=0; re<maa.length; maa++){
+                   maa[re]=maa[re][0].toUpperCase() + maa[re].substr(1);
+               }
+
+
+
+               return maa.join(" ");
+           }
+           console.log(raj());
+           
+    </script>
+</body>
+</html>
